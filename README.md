@@ -46,4 +46,7 @@ public T INumber<T>.Double<T>();
 public T INumber<T>.Halve<T>();
 public T INumber<T>.Increment<T>();
 public T INumber<T>.Decrement<T>();
+
+public object INumber<T>.Box();
+public INumber<T> object.UnBoxNum<T>();
 ```
